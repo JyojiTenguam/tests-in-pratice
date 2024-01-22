@@ -7,8 +7,7 @@ describe('1 - Crie os casos de teste da funcão `Sum`', () => {
   });
 
   it ('Testa se ao receber "0" nos dois parâmetros, retorna o resultado "0"', () => {
-    // Remova o fail e escreva seus testes abaixo
-    fail('Teste vazio!');
+    expect(sum(0, 0)).toBe(0);
   });
   
   it ('Testa se dispara um erro, caso receba como parâmetro uma string', () => {
