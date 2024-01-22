@@ -20,7 +20,6 @@ describe('3 - Ainda sobre a função `printMessage`, adicione os casos de teste 
 
 describe('4 - Crie um fluxo de exceção para a função `printMessage`', () => {
   it ('Testa o fluxo de exceção da função printMessage.', () => {
-    // Remova o fail e escreva seus testes abaixo
-    fail('Teste vazio!');
+    expect(() => printMessage('').toThrow('objeto invalido'))
   });
 });
