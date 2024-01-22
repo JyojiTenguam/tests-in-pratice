@@ -11,12 +11,16 @@ describe('1 - Crie os casos de teste da funcão `Sum`', () => {
   });
   
   it ('Testa se dispara um erro, caso receba como parâmetro uma string', () => {
-    // Remova o fail e escreva seus testes abaixo
-    fail('Teste vazio!');
+    const parameterString = () => {
+      sum('', '')
+    } 
+    expect(parameterString).toThrow()
   });
 
   it ('Testa se a mensagem de erro é "parameters must be numbers" quando realizar a chamada sum(4, "5")', () => {
-    // Remova o fail e escreva seus testes abaixo
-    fail('Teste vazio!');
+    const parameterString = () => {
+      sum('','')
+    }
+    expect(parameterString).toThrow('parameters must be numbers')
   });
 });
