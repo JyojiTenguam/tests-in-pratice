@@ -8,13 +8,13 @@ describe('2 - Implemente o caso de teste para a função `printMessage`', () => 
 
 describe('3 - Ainda sobre a função `printMessage`, adicione os casos de teste a seguir`', () => {
   it ('Testa a informação de boas vindas.', () => {
-    // Remova o fail e escreva seus testes abaixo
-    fail('Teste vazio!');
+    const result = printMessage(info)
+    expect(result).toMatch('Boas vindas')
   });
   
   it ('Testa a informação referente ao nome da personagem.', () => {
-    // Remova o fail e escreva seus testes abaixo
-    fail('Teste vazio!');
+    const result = printMessage(info)
+    expect(result).toContain(info.personagem)
   });
 });
 
