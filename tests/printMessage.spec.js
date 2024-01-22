@@ -2,8 +2,7 @@ const { info, printMessage } = require('../src/printMessage');
 
 describe('2 - Implemente o caso de teste para a função `printMessage`', () => {
   it ('Testa a propriedade personagem no objeto.', () => {
-    // Remova o fail e escreva seus testes abaixo
-    fail('Teste vazio!');
+    expect(info).toHaveProperty('personagem')
   });
 });
 
