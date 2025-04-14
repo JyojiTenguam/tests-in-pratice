@@ -37,6 +37,7 @@ Este projeto visa praticar a criação de testes automatizados utilizando **Jest
 
 ```bash
 git clone https://github.com/JyojiTenguam/tests-in-pratice.git
+```
 
 2. Acesse a pasta do projeto
 
@@ -45,6 +46,7 @@ cd tests-in-pratice
 ```
 
 3. Instale as dependências
+
 ```bash
 npm install
 ```
